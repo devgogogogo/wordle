@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 4%;
+  border-bottom: 1px solid gray;
+}
+.board-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.board-top-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+}
+.board-top-1 img {
+  width: 20px;
+}
+
+.board-top-2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.board-top-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+}
+.board-top-3 img {
+  width: 20px;
+}
